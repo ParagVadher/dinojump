@@ -3,12 +3,25 @@
     margin: 0;
     background-color: black;
 }
+.center{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p{
+    color: white;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 73%;
+}
 #game{
     width: 500px;
     height: 200px;
     border: 1px solid white;
-    position: relative;
-    left: 200px;
+    text-align: center;
 }
 #character{
     width: 33px;
